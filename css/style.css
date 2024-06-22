@@ -539,7 +539,7 @@ a .seta {
 }
 
 .img__footer a>.img {
-    background-image: url("/image/SBLogo2-remove.png");
+    background-image: url("image/SBLogo2-remove.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
