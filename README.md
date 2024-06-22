@@ -1,6 +1,6 @@
 # Sensi Beauty - Blog Post
 
-Este repositório contém um projeto pessoal de um Blog de beleza, com todos os arquivos necessários para configurar e personalizar. 
+Este repositório contém um projeto pessoal para um Blog de beleza, com os arquivos necessários para configurar e personalizar. 
 
 ## Índice
 
@@ -42,7 +42,6 @@ O Sensi Beauty Blog é um site onde os usuários podem encontrar artigos e dicas
 ## Contribuição
 
 Contribuições são bem-vindas! 
-Por favor, siga o código de conduta e as diretrizes de contribuição.
 
 ## Licença
 
@@ -50,4 +49,4 @@ Este projeto utiliza a licença MIT.
 
 ## Contato
 
-Dúvidas ou informações, entre em contato conosco pelo e-mail: paivafleandro@gmail.com
+Dúvidas ou informações, entre em contato através do e-mail: paivafleandro@gmail.com
