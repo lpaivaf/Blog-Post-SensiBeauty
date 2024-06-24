@@ -7,7 +7,7 @@ Este repositório contém um projeto pessoal para um Blog de beleza, com os arqu
 - [Visão Geral](#visão-geral)
 - [Funcionalidade](#funcionalidade)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Imagem Demonstrativa](#imagem-demonstrativa)
+- [Página](#página)
 - [Contribuição](#contribuição)
 - [Licença](#licença)
 - [Contato](#contato)
@@ -34,9 +34,9 @@ O Sensi Beauty Blog é um site onde os usuários podem encontrar artigos e dicas
 * CSS
 * Framework
 
-## Imagem Demonstrativa
+## Página
 
-![](image/Sensi-dispositivos.png)
+[![](image/Sensi-dispositivos.png)](lpaivaf.github.io/Blog-Post-SensiBeauty/)
 
 
 ## Contribuição
