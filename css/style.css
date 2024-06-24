@@ -67,7 +67,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
-    /* margin-top: 7rem; */
+    margin-top: -2.5rem;
 }
 
 .busca__input {
@@ -203,7 +203,7 @@ body {
     background-color: white;
     min-width: max-content;
     border-radius: 3px;
-    padding: 1rem;
+    padding: 1rem .5rem;
     text-align: left;
     letter-spacing: .2rem;
     line-height: 4rem;
@@ -216,7 +216,7 @@ body {
     color: var(--tertiaryColor);
     font-weight: bold;
     font-size: 1rem;
-    padding: 1rem;
+    padding: .5rem;
     color: #c2bdbd;
 }
 
@@ -373,12 +373,6 @@ body {
     box-shadow: 0 0 10px var(--seconderycolor);
 }
 
-.imgPost img:hover {
-    transform: rotate(-1deg) scale(1.05);
-    transition: .2s ease-in-out;
-
-}
-
 .txt-post {
     font-size: 2rem;
 }
@@ -397,6 +391,8 @@ body {
     padding: 0 1.5rem;
     text-transform: uppercase;
 }
+
+/*Utilizar quando houver mais conteúdos. Alterar a apresentação para modo slide. */
 
 /* .mais {
     text-align: center;
@@ -503,6 +499,10 @@ a .seta {
 
 /*Footer*/
 
+footer {
+    margin-top: -1.2rem;
+}
+
 .container__footer {
     background-color: rgb(44, 39, 39);
     display: flex;
@@ -524,6 +524,7 @@ a .seta {
 .logo_contato {
     display: flex;
     justify-content: space-around;
+    gap: 2rem;
     margin: auto;
     align-items: center;
     width: 100%;
@@ -532,19 +533,16 @@ a .seta {
 .sobre_suporte {
     display: flex;
     justify-content: space-around;
+    gap: 2rem;
     margin: auto;
     margin-top: 2rem;
     align-items: top;
     width: 100%;
 }
 
-.img__footer a>.img {
-    background-image: url("/image/SBLogo2-remove.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 14rem;
-    aspect-ratio: 1.4;
+.img__footer a>.img img {
+    width: 12rem;
+    aspect-ratio: 1;
     padding-top: 4rem;
 }
 
@@ -570,13 +568,13 @@ a .seta {
 
 .redes__sociais {
     background-color: rgb(44, 39, 39);
-    font-size: 1.8rem;
-    padding: 4rem 0;
+    font-size: 1.5rem;
+    /* padding: 1rem 0; */
     text-align: center;
 }
 
 .redes__sociais a {
-    margin: 2rem;
+    margin: 1rem;
     color: var(--fouthColor);
     text-decoration: none;
 }
@@ -670,6 +668,12 @@ article h3 {
     margin: 6rem 0;
 }
 
+.img-logo-artigos img{
+    width: 12rem;
+    aspect-ratio: 1;
+    padding-top: 4rem;
+}
+
 /*Responsividade*/
 
 @media screen and (min-width:45.5em) {
@@ -684,6 +688,7 @@ article h3 {
     }
 
     .busca {
+        /* display: flex; */
         margin-top: 8.4rem;
     }
 
@@ -743,7 +748,7 @@ article h3 {
     }
 
     .last-child {
-        transform: translateX(-17.8rem) translateY(1.5rem);
+        transform: translateX(-11rem) translateY(1.5rem);
     }
 
     .imgUp {
@@ -856,6 +861,10 @@ article h3 {
         flex-direction: column;
     }
 
+    .logo_contato, .sobre_suporte {
+        gap: 0;
+    }
+
 }
 
 @media screen and (min-width:64em) {
@@ -931,8 +940,14 @@ article h3 {
     .content__article a {
         display: inline-block;
         box-sizing: border-box;
-
         height: min-content;
+    }
+
+
+    .imgPost img:hover {
+        transform: rotate(-1deg) scale(1.05);
+        transition: .2s ease-in-out;
+
     }
 
     .artigos_barba {
@@ -951,7 +966,7 @@ article h3 {
         flex-direction: row;
     }
 
-    .img__footer img {
+    .img__footer a>.img img {
         padding: 2rem;
     }
 
