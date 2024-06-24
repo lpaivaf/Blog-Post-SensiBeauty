@@ -36,7 +36,7 @@ O Sensi Beauty Blog é um site onde os usuários podem encontrar artigos e dicas
 
 ## Página
 
-[![](image/Sensi-dispositivos.png)](lpaivaf.github.io/Blog-Post-SensiBeauty/)
+[![](image/Sensi-dispositivos.png)](https://lpaivaf.github.io/Blog-Post-SensiBeauty/)
 
 
 ## Contribuição
