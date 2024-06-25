@@ -64,15 +64,25 @@ body {
 .busca {
     background-color: var(--primaryColor);
     display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
-    margin-top: -2.5rem;
+    margin-top:6rem;
+}
+
+.busca>form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* box-sizing: border-box; */
 }
 
 .busca__input {
-    width: 26rem;
-    margin: 0;
+    width: max-content;
+    margin: 3rem 0 0;
     padding: 1.2rem;
     font-size: 1.5rem;
     border-radius: 5px 0 0 5px;
@@ -84,6 +94,7 @@ body {
 .btn__buscar {
     padding: 1.1rem;
     margin-left: .5rem;
+    margin-top: 3rem;
     cursor: pointer;
     color: rgb(80, 74, 74);
     ;
@@ -100,8 +111,8 @@ body {
 }
 
 .carrinho {
-    /* margin-left: 0; */
     width: 5rem;
+    transform: translateX(14rem) translateY(2.8rem);
 }
 
 .svg__icon {
@@ -687,8 +698,12 @@ article h3 {
         font-size: 3rem;
     }
 
+    .busca>form{
+        width: max-content;
+    }
+
     .busca {
-        /* display: flex; */
+        flex-direction: row;
         margin-top: 8.4rem;
     }
 
@@ -705,6 +720,11 @@ article h3 {
     .btn__buscar {
         padding: 1.2rem;
         font-size: 1.8rem;
+        margin-top: 0;
+    }
+
+    .carrinho{
+        transform: translateX(0) translateY(0);
     }
 
     .nav {
